@@ -1,10 +1,20 @@
+//新建
 //http://192.168.106.181:9200/info/user/2222/
 //"_index": "info",
 //"_type": "user",
 //"_id": "2222"
 //post新建  dele删除
-
 {
   "id": 3333333,
   "name": "sunxiao"
 }
+
+
+//部分更新
+http://192.168.106.181:9200/info/user/2222/_update
+{
+"doc": {
+"name": "s2nxiao"
+}
+}
+

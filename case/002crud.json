@@ -10,7 +10,7 @@ post新建
 }
 
 
-//修改put
+//局部的更新修改put
 http: //192.168.106.183:9200/info/user/2222/_update
 {
 "doc": {

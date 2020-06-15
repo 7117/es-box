@@ -1,0 +1,24 @@
+http://192.168.106.183:9200/info/user/_search
+//两个条件 使用bool
+//        过滤使用filter
+//        必须的条件是must
+//query是表示查询
+
+{
+"query": {
+"bool": {
+"filter": {
+"range": {
+"age": {
+"gt": 2
+}
+}
+},
+"must": {
+"match": {
+"id": 8
+}
+}
+}
+}
+}

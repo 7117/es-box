@@ -10,7 +10,7 @@
 }
 
 
-//部分更新put
+//修改put
 http://192.168.106.181:9200/info/user/2222/_update
 {
 "doc": {
@@ -22,7 +22,7 @@ http://192.168.106.181:9200/info/user/2222/_update
 //删除  deleted
 http: //192.168.106.181:9200/info/user/2222/
 
-//get
+//查询get
 http: //192.168.106.181:9200/info/user/1001/
 
 

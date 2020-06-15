@@ -1,0 +1,5 @@
+http://192.168.106.183:9200/info/user/_search
+
+_index类似于数据库
+_type类似于数据表
+_id唯一表示的文档

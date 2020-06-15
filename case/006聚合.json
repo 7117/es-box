@@ -1,0 +1,11 @@
+http://192.168.106.183:9200/info/user/_search
+
+{
+"aggs": {
+"all_interests": {
+"terms": {
+"field": "age"
+}
+}
+}
+}

@@ -1,0 +1,6 @@
+http://192.168.106.183:9200/info/user/_mget
+
+
+{
+"ids":["cyVOuHIB9YIXds9UmI2J", "ciVOuHIB9YIXds9Ud43_"]
+}

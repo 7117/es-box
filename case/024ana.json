@@ -45,3 +45,15 @@
 
 
 
+
+{"index":{"_index":"ana","_type":"person"}}
+{"name":"1","age":1,"mail":"8222@qq.com","hobby":"羽毛球、乒乓球、篮球"}
+{"index":{"_index":"ana","_type":"person"}}
+{"name":"2","age":2,"mail":"8222@qq.com","hobby":"滑冰、寒冰、涨了"}
+{"index":{"_index":"ana","_type":"person"}}
+{"name":"3","age":3,"mail":"8222@qq.com","hobby":"跳、跑、游泳"}
+{"index":{"_index":"ana","_type":"person"}}
+{"name":"4","age":4,"mail":"8222@qq.com","hobby":"跳伞、划船、南极"}
+
+
+

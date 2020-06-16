@@ -1,0 +1,14 @@
+//http://192.168.106.183:9200/ana/_search
+//        post
+
+
+{
+  "query": {
+    "match": {
+      "hobby": {
+        "query":  "羽毛球 乒乓球",
+        "operator": "and"
+      }
+    }
+  }
+}

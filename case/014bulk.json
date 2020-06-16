@@ -2,54 +2,18 @@
 //http://192.168.106.183:9200/new/_bulk
 //是用来进行新建数据的   一起群建很多个！
 
-{
-  "index": {
-    "_index": "new",
-    "_type": "person"
-  }
-}
-{
-  "name": "1",
-  "age": 1,
-  "mail": "8222@qq.com",
-  "hobby": "a b c"
-}
-{
-  "index": {
-    "_index": "new",
-    "_type": "person"
-  }
-}
-{
-  "name": "2",
-  "age": 2,
-  "mail": "8222@qq.com",
-  "hobby": "a b c"
-}
-{
-  "index": {
-    "_index": "new",
-    "_type": "person"
-  }
-}
-{
-  "name": "3",
-  "age": 3,
-  "mail": "8222@qq.com",
-  "hobby": "a b c"
-}
-{
-  "index": {
-    "_index": "new",
-    "_type": "person"
-  }
-}
-{
-  "name": "4",
-  "age": 4,
-  "mail": "8222@qq.com",
-  "hobby": "a b c"
-}
+
+
+
+{"index":{"_index":"new","_type":"person"}}
+{"name":"1","age":1,"mail":"8222@qq.com","hobby":"a b c"}
+{"index":{"_index":"new","_type":"person"}}
+{"name":"2","age":2,"mail":"8222@qq.com","hobby":"a b c"}
+{"index":{"_index":"new","_type":"person"}}
+{"name":"3","age":3,"mail":"8222@qq.com","hobby":"a b c"}
+{"index":{"_index":"new","_type":"person"}}
+{"name":"4","age":4,"mail":"8222@qq.com","hobby":"a b c"}
+
 
 
 

@@ -12,3 +12,27 @@
     }
   }
 }
+
+
+{
+  "query": {
+    "match": {
+      "hobby": {
+        "query":  "羽毛球 乒乓球",
+        "operator": "or"
+      }
+    }
+  }
+}
+
+
+{
+  "query": {
+    "match": {
+      "hobby": {
+        "query":  "球",
+        "minimum_should_match": "20%"
+      }
+    }
+  }
+}

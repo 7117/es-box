@@ -1,4 +1,7 @@
-http://192.168.106.183:9200/info/user/_search
+//http://192.168.106.183:9200/info/user/_search
+//按照group进行聚合  类似于mysql的groupBy
+
+
 
 {
 "aggs": {

@@ -23,7 +23,7 @@ http: //192.168.106.183:9200/info/user/2222/_update
 //删除  deleted
 http: //192.168.106.183:9200/info/user/2222/
 
-//查询get
+//查询get  也可以使用DSL进行查询
 http: //192.168.106.183:9200/info/user/1001/
 
 

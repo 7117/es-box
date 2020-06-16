@@ -12,3 +12,9 @@ http://192.168.106.183:9200/_analyze
 "analyzer": "standard",
 "text": "中国人牛"
 }
+
+
+{
+"analyzer": "ik_max_word",
+"text": "中国人哈哈哈哈"
+}

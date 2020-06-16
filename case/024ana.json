@@ -1,0 +1,47 @@
+//http://192.168.106.183:9200/ana
+//put
+
+
+{
+  "settings": {
+    "index": {
+      "number_of_shards": "1",
+      "number_of_replicas": "0"
+    }
+  },
+  "mappings": {
+    "person": {
+      "properties": {
+        "name": {
+          "type": "text"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "mail": {
+          "type": "keyword"
+        },
+        "hobby": {
+          "type": "text",
+          "analyzer": "ik_max_word"
+        }
+      }
+    }
+  }
+}
+
+
+//http://192.168.106.183:9200/ana/_bulk
+//post
+
+{"index":{"_index":"ana","_type":"person"}}
+{"name":"1","age":1,"mail":"8222@qq.com","hobby":"a b c"}
+{"index":{"_index":"ana","_type":"person"}}
+{"name":"2","age":2,"mail":"8222@qq.com","hobby":"a b c"}
+{"index":{"_index":"ana","_type":"person"}}
+{"name":"3","age":3,"mail":"8222@qq.com","hobby":"a b c"}
+{"index":{"_index":"ana","_type":"person"}}
+{"name":"4","age":4,"mail":"8222@qq.com","hobby":"a b c"}
+
+
+

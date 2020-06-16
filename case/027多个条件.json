@@ -1,0 +1,21 @@
+//http://192.168.106.183:9200/ana/_search
+//        post
+
+
+{
+  "query": {
+    "bool": {
+      "must": {
+        "match": {
+          "hobby": "篮球"
+        }
+      },
+      "must_not": {
+        "match": {
+          "hobby": "滑冰"
+        }
+      }
+    }
+  }
+}
+}

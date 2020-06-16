@@ -1,0 +1,27 @@
+http://192.168.106.183:9200/new/_mapping
+
+
+//        这个是在进行获取索引的结构
+
+{
+"new": {
+"mappings": {
+"person": {
+"properties": {
+"age": {
+"type": "integer"
+},
+"hobby": {
+"type": "text"
+},
+"mail": {
+"type": "keyword"
+},
+"name": {
+"type": "text"
+}
+}
+}
+}
+}
+}

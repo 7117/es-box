@@ -2,6 +2,8 @@
 //        post
 
 
+
+
 {
   "query": {
     "bool": {
@@ -14,7 +16,14 @@
         "match": {
           "hobby": "滑冰"
         }
-      }
+      },
+      "should": [
+        {
+          "match": {
+            "hobby": "游泳"
+          }
+        }
+      ]
     }
   }
 }

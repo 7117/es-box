@@ -31,5 +31,6 @@ http: //192.168.106.183:9200/info/user/1001/
 http: //192.168.106.183:9200/info/user/_search/
 
 
+
 //条件查询  有一个q
 http: //192.168.106.183:9200/info/user/_search?q=id:3

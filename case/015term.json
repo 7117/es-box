@@ -1,0 +1,11 @@
+//http://192.168.106.183:9200/new/person/_search
+
+//term查询   age为4的字段
+
+{
+"query": {
+"term": {
+"age": "4"
+}
+}
+}

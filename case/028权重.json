@@ -1,0 +1,33 @@
+http://192.168.106.183:9200/ana/_search
+
+
+{
+"query": {
+"bool": {
+"must": {
+"match": {
+"hobby": "篮球"
+}
+},
+"should": [
+{
+"match": {
+"hobby": {
+"query": "游泳",
+"boost": 10
+}
+}
+},
+{
+"match": {
+"hobby": {
+"query": "跑步",
+"boost": 5
+}
+}
+}
+]
+}
+}
+}
+}

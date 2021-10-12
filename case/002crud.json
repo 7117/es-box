@@ -1,24 +1,17 @@
-新建post
+//新建post
 http://192.168.106.183:9200/info/user/2222/
-//        带横杠的就是元数据
-"_index": "info",
-"_type": "user",
-"_id": "2222"
-post新建
 {
   "id": 3333333,
   "name": "sunxiao"
 }
 
-
 //局部的更新修改put
 http: //192.168.106.183:9200/info/user/2222/_update
 {
-"doc": {
-"name": "s2nxiao"
+  "doc": {
+      "name": "s2nxiao"
+  }
 }
-}
-
 
 //删除  deleted
 http: //192.168.106.183:9200/info/user/2222/
@@ -26,11 +19,8 @@ http: //192.168.106.183:9200/info/user/2222/
 //查询get  也可以使用DSL进行查询
 http: //192.168.106.183:9200/info/user/1001/
 
-
 //查询全部_search
 http: //192.168.106.183:9200/info/user/_search/
-
-
 
 //条件查询  有一个q
 http: //192.168.106.183:9200/info/user/_search?q=id:3

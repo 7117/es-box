@@ -5,20 +5,20 @@ http://192.168.106.183:9200/info/user/_search
 //query是表示查询
 
 {
-"query": {
-"bool": {
-"filter": {
-"range": {
-"age": {
-"gt": 2
-}
-}
-},
-"must": {
-"match": {
-"id": 8
-}
-}
-}
-}
+  "query": {
+      "bool": {
+        "filter": {
+          "range": {
+            "age": {
+              "gt": 2
+            }
+              }
+              },
+        "must": {
+                "match": {
+                  "id": 8
+          }
+        }
+      }
+    }
 }

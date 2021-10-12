@@ -2,15 +2,15 @@ http://192.168.106.183:9200/info/user/_search
 
 
 {
-"query": {
-"match": {
-"name": "t3 t4"
-}
-},
-"highlight": {
-"fields": {
-"name": {
-}
-}
-}
+  "query": {
+    "match": {
+      "name": "t3 t4"
+        }
+    },
+    "highlight": {
+          "fields": {
+            "name": {
+      }
+    }
+  }
 }

@@ -5,9 +5,9 @@ http://192.168.106.183:9200/new/person/_search
 
 
 {
-"query": {
-"match": {
-"age": 2
-}
-}
+  "query": {
+    "match": {
+        "age": 2
+        }
+  }
 }

@@ -3,9 +3,9 @@
 //term查询   age为4的字段
 
 {
-"query": {
-"term": {
-"age": "4"
-}
-}
+  "query": {
+    "term": {
+      "age": "4"
+    }
+  }
 }

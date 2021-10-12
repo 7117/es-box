@@ -1,8 +1,6 @@
-http://192.168.106.183:9200/info/user/_mget
-
+//http://192.168.106.183:9200/info/user/_mget
 //        这个是进行获取多个的
 
-
 {
-"ids":["cyVOuHIB9YIXds9UmI2J", "ciVOuHIB9YIXds9Ud43_"]
+  "ids":["cyVOuHIB9YIXds9UmI2J", "ciVOuHIB9YIXds9Ud43_"]
 }
